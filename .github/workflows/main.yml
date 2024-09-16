@@ -13,7 +13,7 @@ on:
         default: '["default"]'
       alphas:
         type: string
-        default: '["default"]'
+        default: '["QWERTY"]'
       extra:
         type: string
         default: '["default"]'
