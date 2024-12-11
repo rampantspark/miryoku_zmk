@@ -9,5 +9,6 @@ jobs:
       shield: '["corne_left nice_view_adapter nice_view_gem","corne_right nice_view_adapter nice_view_gem"]'
       modules: '["M165437/nice-view-gem/main"]'
       mapping: '["QWERTY"]'
+      nav: '["vi"]'
       alphas: '["QWERTY"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y"]'
