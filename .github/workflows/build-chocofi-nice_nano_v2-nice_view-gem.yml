@@ -1,11 +1,11 @@
-name: "Build corne nice_nano_v2 nice_view gem"
+name: "Build chocofi nice_nano_v2 nice_view gem"
 on: workflow_dispatch
 jobs:
   build:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["nice_nano_v2"]'
+      board: '["nice_nano"]'
       shield: '["corne_left nice_view_adapter nice_view_gem","corne_right nice_view_adapter nice_view_gem"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
