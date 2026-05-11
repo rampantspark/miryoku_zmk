@@ -1,4 +1,4 @@
-name: "Build chocofi nice_nano_v2 nice_view gem"
+name: "Build chocofi nice_nano nice_view"
 on: workflow_dispatch
 jobs:
   build:
@@ -6,7 +6,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano"]'
-      shield: '["corne_left nice_view_adapter nice_view_gem","corne_right nice_view_adapter nice_view_gem"]'
+      shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
       layers: '["default"]'
@@ -14,6 +14,5 @@ jobs:
       extra: '["default"]'
       tap: '["default"]'
       clipboard: '["default"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
       branches: '["default"]'
-      modules: '["M165437/nice-view-gem/main"]'
